@@ -1,0 +1,28 @@
+public class Solution {
+    public int solve(int[][] A, int B) 
+    {
+        int max=Integer.MIN_VALUE;
+        int m=A.length;
+        int n=A[0].length;
+        for(int i=0;i<m;i++)
+        {
+            for(int j=0;j<n;j++)
+            {
+                // we cant use the last row
+                if(i+B<=m && j+B<=n)
+                {
+                    int sum=0;
+                    for(int k=i;k<i+B;k++)
+                    {
+                        for(int l=j;l<j+B;l++)
+                        {
+                            sum+=A[k][l];
+                        }
+                    }
+                    max=Math.max(max,sum);
+                }
+            }
+        }
+        return max;
+    }
+}
