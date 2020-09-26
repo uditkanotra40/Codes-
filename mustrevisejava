@@ -1,0 +1,73 @@
+string and Integer have same preferences
+String is not mutable and string buffer is not mutable
+Those other two are red herrings however as the code will never compile due to line 8. Any number beginning with zero is treated as an octal number (which is 0-7).
+import java.util.*;  
+class I  
+{ 
+    public static void main (String[] args)  
+    { 
+        Object i = new ArrayList().iterator();  
+        System.out.print((i instanceof List) + ", ");  
+        System.out.print((i instanceof Iterator) + ", ");  
+        System.out.print(i instanceof ListIterator);  
+    }  
+}
+
+above only Iterator function would work.
+
+for threads extend the Thread class only.
+Important A thread cannot be started twice. gives run time exception
+
+As equals(Object obj) method in Object class, compares two objects on the basis of equivalence relation. But here we are just confirming that the object is null or not, So it doesn’t fulfill Object.equals() contract. As m1 is not null, true will be printed.
+
+static methods can not be overidden
+
+set 8 java revise
+
+finally wala toh print hoga hi
+
+in threads the start can only create the new thread
+
+all the varaibles out side function should be decalred as static.
+
+{contents of only static block example
+static
+{
+}
+gets printed first before calling the construtor.}
+
+final methods can not be overidden
+
+A Java both int and Integer are used to store integer type data the major difference between both is type of int is primitive while Integer is of class type. ... On other hand Integer is a wrapper class which wraps a primitive type int into an object
+Range of Integer class is from -128 to 127; 128 will return false
+
+when riding the methods of parent class in child class then the derieved methods can be more restrictive.
+
+private methods can not be derived
+
+there can be only one finally block to a try
+
+prioty queue in java defaulty sets the elemets in acending order.
+
+tree set does not contains duplicates and sorts the data entering into asecding data(asc)
+
+removeAll in list removes common elemets.
+
+Converting from int to String as well as converting from String to int is not allowed in java.
+
+try
+    { 
+        public Test() 
+        { 
+            Thread.sleep(5000); 
+        }    
+    }  
+ }
+ 
+ A constructor cant be defined under try catch block
+ suffient to envof=ke default constructor.
+ 
+ Constructor call to super class must be the first statement in the constructor of the Derived class.  //very imp
+ 
+ in c and c++ converting int to boolean is a valid statement
+ constructor calls static varaible Test.i
