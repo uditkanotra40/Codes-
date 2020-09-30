@@ -1,0 +1,17 @@
+Seraching in binary trees is O(log2n)
+AVL tree comes into the play when binary tree is unbalnced
+AVL is self balancing binary searach tree
+AVL gurrentees that in worst case it would give us O(log2n)
+every node in AVL has a balancing factor
+
+balancing factor allowed value={-1,0,1}
+
+solution of LL is R->(rotation)
+
+solution of RR id L->(roation)
+solution of LR is LR->(roation)
+stop on first node whose balancing factor is voilated
+
+ 
+     
+    
