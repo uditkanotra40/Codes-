@@ -1,0 +1,17 @@
+Abstarct Class:
+1) uses abstarct keyword
+2) it can have abstarct and non abstarct methods
+3) access modifiers allowed like public,private.
+4) abstact class is used to achive 0 to 100 percent abstarction
+
+Interface class:
+1) interface keyword is used.
+2) it can only abstarct methods
+3) members of interface are public by default
+4) used to achive 100 percent abstraction
+
+
+differnec betwwen class and interface
+1)class can contain abstract and concrete methods but in interface only abstarct methods
+2) in class private,public,protected used but in interface members are public by default.
+3) extends and inplements keyword.
