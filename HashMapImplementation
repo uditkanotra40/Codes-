@@ -1,0 +1,23 @@
+Hashmap allows the null values and is not thread safe.
+Hastable is threadsafe and does not allow null values
+
+16 buckets are created which are nodes of the linked list.
+
+we calculate the hashvalue of the key
+hashcode(abc)=111011
+Hashcode after an modular operation returns a index value
+there in the index the value is stored.
+A node in hashmap contains 4 things in the node,
+1) hashcode
+2) key
+3) value
+4) next pointer
+
+in case of collision same index generated then one node will added and prev next pointer will point to it
+
+in case the key is null then it would stored in the 0th bucket
+
+GET operation
+get(key):
+in get operation the hashcode is generated for the key.
+then this hashcode is looked up in the buckets if hashcode matches then value is matched and then and then the value is returnred
