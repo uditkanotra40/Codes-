@@ -4,7 +4,7 @@
    |     b  |
    |     |  |
    |_____a__|
-   
+   Time complexity of insertion and deletion operation is O(1);
    push operation
    
    static node push(Node top,int c)
